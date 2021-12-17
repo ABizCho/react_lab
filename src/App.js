@@ -6,6 +6,7 @@ function App() {
     <div>
       {hello}
       {hello}
+      <img src={require("./cat.jpg")} alt="profile" />
     </div>
   )
 }
