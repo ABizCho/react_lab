@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import {hello} from "./component/hello";
 
 function App() {
-  return "a";
+  return (
+    hello
+  )
 }
 
 export default App;

@@ -4,10 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-const name = "seongwoo";
 
 ReactDOM.render(
-<h1>Hello, {name}!</h1>,
+<App />,
 document.getElementById("root")
 );
 
