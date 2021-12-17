@@ -3,7 +3,10 @@ import {hello} from "./component/hello";
 
 function App() {
   return (
-    hello
+    <div>
+      {hello}
+      {hello}
+    </div>
   )
 }
 
