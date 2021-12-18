@@ -1,6 +1,7 @@
 import "./App.css";
 import {hello} from "./component/hello";
 import {createElementPrac} from  "./component/createElementPrac"
+import cat from "./cat.jpg"
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       {hello}
       {hello}
       {createElementPrac}
-      <img src={require("./cat.jpg")} alt="profile" />
+      <img src={cat} alt="img" />
     </div>
   )
 }
